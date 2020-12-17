@@ -1,0 +1,59 @@
+* {​​​​padding: 0; margin: 0;}​​​​
+
+.Untertitel h1{
+    color: crimson;
+    text-align: center;
+    background-color: black;
+}
+.Untertitel {color: silver}
+
+.Footer h3{
+    position: static;
+    color: silver;
+    vertical-align: middle;
+    display: table-cell;
+}
+.Titelbar {
+    background: crimson;
+    width: 100%;
+    height: 20%;
+    top: 0;
+    position: absolute;
+    margin: 0;
+
+}
+
+.Image img{
+    border: 5px crimson;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 20%;
+    height: 20%;
+}
+body{
+
+
+
+
+}
+
+.Hintergrund{
+    height: fit-content;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Footer {
+    margin-top: auto;
+    margin-bottom: auto;
+    background: crimson;
+    height: 15%;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}

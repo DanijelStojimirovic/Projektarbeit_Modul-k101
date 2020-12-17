@@ -1,0 +1,33 @@
+
+header{
+    display: flex;
+    background: crimson;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.Logo{
+    width: 16vw;
+    height: 10vw;
+    background-image: url("./img/Super smash bros logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Background {
+    background-image: url("./img/BackgroundWP.png");
+    height: auto;
+    width: max-content ;
+}
+
+.footer {
+    display: flex;
+    background: crimson;
+    align-items: center;
+    padding: 10px;
+    align-self: flex-end;
+    color: silver;
+    position: fixed;
+}

@@ -1,0 +1,44 @@
+* {padding: 0; margin: 0;}
+
+header{
+    display: flex;
+    background: crimson;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.Logo{
+    width: 16vw;
+    height: 10vw;
+    background-image: url("./img/Super smash bros logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Background {
+background-image: url("img/BackgroundWP.png");
+    background-size: cover;
+}
+.fill {width: auto; height: 1000px;}
+
+.footer {
+    display: flex;
+    background: crimson;
+    align-items: center;
+    padding: 10px;
+    align-self: flex-end;
+    color: silver;
+    position: fixed;
+}
+.img1 {
+    width: auto;
+    height: 1000px;
+}
+.text1{
+    float: right;
+    font-size: 20px;
+    color: crimson;
+}
+
+
+/* class="row" class="col-lg-6 col-md-8 col-sm-12"*/
